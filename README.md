@@ -1,5 +1,3 @@
-<![CDATA[<div align="center">
-
 # 🎨 Cybernetic Design System (CDS)
 
 **A deterministic design-enforcement layer for AI-generated UI**
@@ -14,8 +12,6 @@
 <br>
 
 [Installation](#-installation) · [Quick Start](#-quick-start) · [CLI](#-cli-commands) · [MCP Server](#-mcp-server-for-claude-code) · [API](#-library-api) · [Architecture](#-architecture)
-
-</div>
 
 ---
 
@@ -379,11 +375,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-<div align="center">
-
 **Built with ❤️ for deterministic design quality**
 
 [Report Bug](https://github.com/akaradje/cybernetic-design-system/issues) · [Request Feature](https://github.com/akaradje/cybernetic-design-system/issues) · [Documentation](docs/ARCHITECTURE.md)
-
-</div>
-]]>
