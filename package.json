@@ -1,0 +1,35 @@
+{
+  "name": "cybernetic-design-system",
+  "version": "0.1.0",
+  "description": "A deterministic design-enforcement layer for AI-generated UI: grid, contrast, and aesthetic constraints with bounded auto-fix.",
+  "license": "MIT",
+  "bin": {
+    "cds": "dist/cli.js",
+    "cds-mcp": "dist/mcp-server.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "check": "tsx src/cli.ts examples/sample.tsx",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:kpi": "vitest run tests/kpi/",
+    "mcp": "node dist/mcp-server.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "playwright": "^1.60.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vitest/coverage-v8": "^4.1.8",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vitest": "^4.1.8"
+  }
+}

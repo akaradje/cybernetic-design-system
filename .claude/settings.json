@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/cds.mjs",
+            "timeout": 20,
+            "statusMessage": "Enforcing design system..."
+          }
+        ]
+      }
+    ]
+  }
+}
